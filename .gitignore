@@ -1,0 +1,23 @@
+# only upload sources, no exe or obj
+bin/
+Debug/
+obj/
+# online doc is only PDF, nothing else
+*.tmd
+*.pmdx
+*.doc
+*.docx
+*.odt
+*.xls
+*.ods
+# exclude IDE specific data
+*.cbp
+*.layout
+*.depend
+*.save
+# other excludes
+*.nou
+internal/
+
+
+
